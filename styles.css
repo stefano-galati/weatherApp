@@ -1,4 +1,5 @@
 *{
+    /*border: 1px solid white; */
     box-sizing: border-box;
     margin: 0;
 }
@@ -9,16 +10,23 @@ body{
     margin: 0;
     height: 100%;
     height: 100vh;
-    background: cyan;
+    background: #1F343F;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 header{
-    padding: 30px;
+    margin-top: 0;
+    padding-top: 50px;
+    color: white;
 }
 
 main{
-    margin: auto 20% auto 20%;
+    margin: auto;
+    margin-top: 7vh;
+    height: 50%;
+    width: 50%;
+    background-color: #355A6C;
     padding: 30px;
     border: 2px solid black;
     border-radius: 20px;
@@ -26,14 +34,19 @@ main{
 
 h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 20px;
 }
 
 #target{
@@ -49,6 +62,8 @@ input[type="button"]{
     background-color: white;
     width: 200px;
     height: 75px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
     border-radius: 20px;
     border: 2px solid black;
     box-shadow: 0px 5px black;
@@ -58,5 +73,32 @@ input[type="button"]:active{
     box-shadow: none;
     position: relative;
     top: 5px;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.blue{
+    color: darkblue;
+}
+
+.white{
+    color: white;
+}
+
+.iconContainer{
+    font-size: 40px;
+    width: 150px;
+    height: 150px;
+    padding-top: 70px;
+    text-align: center;
+    color: white;
+}
+
+.stylingBox{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
 }
 
