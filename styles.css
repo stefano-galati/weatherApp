@@ -1,5 +1,5 @@
 *{
-    /*border: 1px solid white; */
+    /*border: 1px solid white;*/
     box-sizing: border-box;
     margin: 0;
 }
@@ -12,24 +12,23 @@ body{
     height: 100vh;
     background: #1F343F;
     background-repeat: no-repeat;
-    overflow: hidden;
 }
 
 header{
     margin-top: 0;
-    padding-top: 50px;
+    padding-top: 30px;
     color: white;
 }
 
 main{
     margin: auto;
     margin-top: 7vh;
-    height: 50%;
+    height: 400px;
     width: 50%;
     background-color: #355A6C;
-    padding: 30px;
     border: 2px solid black;
     border-radius: 20px;
+
 }
 
 h1{
@@ -73,6 +72,7 @@ input[type="button"]:active{
     box-shadow: none;
     position: relative;
     top: 5px;
+    background-color: #dddddd;
 }
 
 .yellow{
