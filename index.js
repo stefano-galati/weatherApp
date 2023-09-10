@@ -30,7 +30,7 @@ function getData(){
         let precipitation = data.hourly.precipitation;
         let temperature = data.hourly.temperature_2m;
         let totalPrecipitation = precipitation.reduce((sum, elem) => sum+=elem, 0);
-        let averageTemperature = (temperature.reduce((sum, elem) => sum+=elem, 0))/24;
+        let averageTemperature = (temperature.reduce((sum, elem) => sum+=elem, 0))/temperature.length;
         //target.innerHTML = totalPrecipitation;
 
         if(totalPrecipitation > 0){
